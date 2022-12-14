@@ -1,3 +1,41 @@
-body {
-
+body{
+  background-color:#0EE0FB;
+  
+}
+h2{
+  color:#F06C9B;
+    font-size:500%;
+  letter-spacing:6px;
+  text-decoration: underline;
+}
+p{
+  color:#F06C9B;
+  font-size: 200%;
+}
+img{
+  border:dashed #F06C9B 10px;
+}
+iframe{
+  border:dashed #F06C9B 30px;
+}
+ #borderimg {
+  border-image-source: url(border.png);
+  border-image-width: 15px;
+}
+u1{
+  list-style-type: none;
+  text-align: center;
+  postition: fixed;
+  width: 100%;
+}
+li a{
+  padding: 50%;
+  font-family:"Papyrus", Fantasy;
+  border-style: dashed;
+  color:  #F06C9B
+    text-decoration-lin: none;
+}
+li a:hover{
+  background-color: white;
+  
 }
